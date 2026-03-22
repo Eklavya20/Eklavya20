@@ -33,8 +33,6 @@ pip install diagnost
 **Dimensionality Reduction and Feature Extraction for High-Dimensional Datasets**  
 *FAU Erlangen-Nürnberg · 2026*
 
-*Link coming soon.*
-
 ---
 
 ## 🛠 Stack
