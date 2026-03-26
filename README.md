@@ -8,7 +8,13 @@ I build things to understand them.
 
 ---
 
-## 🔧 Featured Project
+## 🧠 What I Build
+- ML systems with a focus on evaluation and diagnostics
+- Agentic RAG applications with reliable retrieval and tool orchestration
+- End-to-end pipelines designed to surface model failures, not hide them
+
+
+## 🔧 Selected Projects
 
 ### [`diagnost`](https://github.com/Eklavya20/diagnost) · [![PyPI version](https://img.shields.io/pypi/v/diagnost)](https://pypi.org/project/diagnost/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -28,6 +34,17 @@ pip install diagnost
 
 ---
 
+### [`Contract Intelligence Analyst`](https://github.com/Eklavya20/contract-analyst)
+
+An agentic RAG system that lets you chat with legal contracts.
+
+- Tool-based reasoning with LangGraph: semantic search, clause extraction, risk flagging, and cross-contract comparison  
+- Fully local LLM deployment using Ollama (Mistral 7B)  
+- Source-grounded answers with chunk-level citations  
+- Demonstrates end-to-end pipeline from PDF ingestion to interactive query
+
+---
+
 ## 🧪 Master Thesis
 
 **Dimensionality Reduction and Feature Extraction for High-Dimensional Datasets**  
@@ -37,23 +54,17 @@ pip install diagnost
 
 ## 🛠 Stack
 
-**Languages & ML**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+**ML & Modeling**  
+Python · PyTorch · scikit-learn · Hugging Face  
 
-**Data & Infra**  
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+**LLM & RAG Systems**  
+LangChain · LangGraph · FAISS · sentence-transformers · Ollama  
 
-**Tools**  
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Optuna](https://img.shields.io/badge/Optuna-3A86FF?style=flat&logoColor=white)
+**Data & Infrastructure**  
+SQL · AWS · Docker  
+
+**Experimentation & Evaluation**  
+Optuna · calibration · drift detection · model diagnostics  
 
 ---
 
