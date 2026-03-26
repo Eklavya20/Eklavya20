@@ -81,5 +81,5 @@ FAU Erlangen-Nürnberg · 2025
 **Diploma in Data Analytics and Econometrics**  
 Pune University · 2021
 
-**B.Sc. Business and Computer Applications**  
+**Bachelor of Business and Computer Applications**  
 MIT World Peace University · 2020
