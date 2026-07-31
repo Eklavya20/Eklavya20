@@ -97,7 +97,7 @@ pandas · numpy · SQL · AWS
 
 ## 💼 Experience
 
-**Junior Data Scientist**  
+**Data Scientist**  
 LINO Consulting and Research · Munich · Nov 2025 – Present
 
 **Data Analytics and Reporting · Werkstudent**  
