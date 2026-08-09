@@ -1,6 +1,6 @@
 # Eklavya Jumnani
 
-Data Scientist · Germany  
+Data Scientist · Applied AI Engineer · Germany  
 I build production ML systems that are honest about their own failures.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eklavya-jumnani)
@@ -9,36 +9,32 @@ I build production ML systems that are honest about their own failures.
 
 ---
 
-## 🔧 Projects
+## Projects
 
 ### [`contract-analyst`](https://github.com/Eklavya20/contract-analyst)
 
-Reviewing contracts is a chore. This makes it less of one. Ask a question in plain English, get a cited answer in seconds, without reading 50 pages yourself.
+A local agentic RAG system for legal contract analysis. Ask questions in plain English — the agent retrieves relevant clauses, flags risks, and compares terms across documents, with every answer grounded in a source citation.
 
 - LangGraph ReAct agent with four tools: semantic search, clause extraction, risk flagging, cross-contract comparison
-- Fully local LLM via Ollama (Mistral 7B). No API keys, no data leaves the machine
+- Fully local via Ollama (Mistral 7B) — no API keys, no data leaves the machine, GDPR-compliant by design
 - FAISS vector store with sentence-transformers embeddings
-- Every answer cites the exact contract and chunk it came from
-- Interactive UI built with Streamlit
+- Streamlit interface
 
 ---
 
 ### [`ml-guardian`](https://github.com/Eklavya20/ml-guardian) · [![CI](https://github.com/Eklavya20/ml-guardian/actions/workflows/ml-guardian.yml/badge.svg)](https://github.com/Eklavya20/ml-guardian/actions/workflows/ml-guardian.yml)
 
-A retrained model that quietly got worse is harder to catch than one that obviously broke. ML Guardian catches it before it reaches production. It compares every new model against the live one and blocks deployment if something regressed.
+Automated model quality gates for MLflow. Compares every candidate model against the current production version across accuracy, F1, ROC-AUC, calibration, and feature drift — auto-promotes on pass, hard blocks with a structured report on failure.
 
-- Checks accuracy, F1, ROC-AUC, calibration, and feature drift against the current production model
 - Configurable thresholds per use case
-- Auto-promotes on pass, hard blocks with a full report on failure
-- GitHub Actions native, no extra infrastructure needed
-
-Built on top of `diagnost` and `ml-production-template`.
+- GitHub Actions native — no extra infrastructure required
+- Built on top of `diagnost` and `ml-production-template`
 
 ---
 
 ### [`ml-production-template`](https://github.com/Eklavya20/ml-production-template) · [![CI](https://github.com/Eklavya20/ml-production-template/actions/workflows/ci.yml/badge.svg)](https://github.com/Eklavya20/ml-production-template/actions/workflows/ci.yml)
 
-Most ML tutorials end at `model.fit()`. This one doesn't. It covers everything from training pipeline to served API so the next project starts from a solid foundation.
+A full MLOps stack covering training pipeline through served API — experiment tracking, orchestration, containerisation, CI/CD, and quality gates in one composable template.
 
 | Layer | Tool |
 |---|---|
@@ -53,7 +49,7 @@ Most ML tutorials end at `model.fit()`. This one doesn't. It covers everything f
 
 ### [`diagnost`](https://github.com/Eklavya20/diagnost) · [![PyPI version](https://img.shields.io/pypi/v/diagnost)](https://pypi.org/project/diagnost/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Accuracy on a test set is one number. It does not tell you whether your model is overconfident, whether your data has drifted, or whether it performs equally across groups. Diagnost asks those questions so you do not have to remember to.
+An open-source Python library for end-to-end model diagnostics. Accuracy on a test set is one number — Diagnost covers what it doesn't: overconfidence, data drift, subgroup performance gaps, and dataset quality issues.
 
 | Pillar | What it covers |
 |---|---|
@@ -69,35 +65,18 @@ pip install diagnost
 
 ---
 
-## 🧪 Master Thesis
+## Master Thesis
 
 **Dimensionality Reduction and Feature Extraction for High-Dimensional Datasets**  
-*FAU Erlangen-Nürnberg · 2025*
+*FAU Erlangen-Nürnberg · 2026*
+
+*Link coming soon.*
 
 ---
 
-## 🛠 Stack
+## Experience
 
-**ML & Modeling**  
-Python · scikit-learn · XGBoost · PyTorch · Hugging Face
-
-**LLM & RAG**  
-LangChain · LangGraph · FAISS · sentence-transformers · Ollama
-
-**MLOps & Infrastructure**  
-MLflow · Prefect · FastAPI · Streamlit · Docker · GitHub Actions
-
-**Evaluation & Diagnostics**  
-diagnost · calibration · drift detection · ECE · model comparison
-
-**Data**  
-pandas · numpy · SQL · AWS
-
----
-
-## 💼 Experience
-
-**Data Scientist**  
+**Junior Data Scientist**  
 LINO Consulting and Research · Munich · Nov 2025 – Present
 
 **Data Analytics and Reporting · Werkstudent**  
@@ -111,10 +90,10 @@ Infosys Limited · Pune · Dec 2020 – Aug 2022
 
 ---
 
-## 🎓 Education
+## Education
 
 **M.Sc. Data Science** — Major: AI & Machine Learning  
-FAU Erlangen-Nürnberg · 2025
+FAU Erlangen-Nürnberg · 2026
 
 **Diploma in Data Analytics and Econometrics**  
 Pune University · 2021
