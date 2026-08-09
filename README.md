@@ -1,7 +1,7 @@
 # Eklavya Jumnani
 
 Data Scientist · Applied AI Engineer · Germany  
-I build production ML systems that are honest about their own failures.
+Production-grade AI: agentic systems, MLOps, and diagnostic tooling.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eklavya-jumnani)
 [![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=flat&logo=pypi&logoColor=white)](https://pypi.org/user/EklavyaJ/)
@@ -13,10 +13,10 @@ I build production ML systems that are honest about their own failures.
 
 ### [`contract-analyst`](https://github.com/Eklavya20/contract-analyst)
 
-A local agentic RAG system for legal contract analysis. Ask questions in plain English — the agent retrieves relevant clauses, flags risks, and compares terms across documents, with every answer grounded in a source citation.
+A local agentic RAG system for legal contract analysis. Ask questions in plain English, get a cited answer in seconds, without reading 50 pages yourself.
 
 - LangGraph ReAct agent with four tools: semantic search, clause extraction, risk flagging, cross-contract comparison
-- Fully local via Ollama (Mistral 7B) — no API keys, no data leaves the machine, GDPR-compliant by design
+- Fully local via Ollama (Mistral 7B). No API keys, no data leaves the machine, GDPR-compliant by design
 - FAISS vector store with sentence-transformers embeddings
 - Streamlit interface
 
@@ -24,17 +24,17 @@ A local agentic RAG system for legal contract analysis. Ask questions in plain E
 
 ### [`ml-guardian`](https://github.com/Eklavya20/ml-guardian) · [![CI](https://github.com/Eklavya20/ml-guardian/actions/workflows/ml-guardian.yml/badge.svg)](https://github.com/Eklavya20/ml-guardian/actions/workflows/ml-guardian.yml)
 
-Automated model quality gates for MLflow. Compares every candidate model against the current production version across accuracy, F1, ROC-AUC, calibration, and feature drift — auto-promotes on pass, hard blocks with a structured report on failure.
+Automated model quality gates for MLflow. Compares every candidate model against the current production version across accuracy, F1, ROC-AUC, calibration, and feature drift. Auto-promotes on pass, hard blocks with a structured report on failure.
 
 - Configurable thresholds per use case
-- GitHub Actions native — no extra infrastructure required
+- GitHub Actions native, no extra infrastructure required
 - Built on top of `diagnost` and `ml-production-template`
 
 ---
 
 ### [`ml-production-template`](https://github.com/Eklavya20/ml-production-template) · [![CI](https://github.com/Eklavya20/ml-production-template/actions/workflows/ci.yml/badge.svg)](https://github.com/Eklavya20/ml-production-template/actions/workflows/ci.yml)
 
-A full MLOps stack covering training pipeline through served API — experiment tracking, orchestration, containerisation, CI/CD, and quality gates in one composable template.
+A full MLOps stack covering training pipeline through served API. Experiment tracking, orchestration, containerisation, CI/CD, and quality gates in one composable template.
 
 | Layer | Tool |
 |---|---|
@@ -49,7 +49,7 @@ A full MLOps stack covering training pipeline through served API — experiment 
 
 ### [`diagnost`](https://github.com/Eklavya20/diagnost) · [![PyPI version](https://img.shields.io/pypi/v/diagnost)](https://pypi.org/project/diagnost/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An open-source Python library for end-to-end model diagnostics. Accuracy on a test set is one number — Diagnost covers what it doesn't: overconfidence, data drift, subgroup performance gaps, and dataset quality issues.
+An open-source Python library for end-to-end model diagnostics. Accuracy on a test set is one number. Diagnost covers what it doesn't: overconfidence, data drift, subgroup performance gaps, and dataset quality issues.
 
 | Pillar | What it covers |
 |---|---|
@@ -76,14 +76,14 @@ pip install diagnost
 
 ## Experience
 
-**Junior Data Scientist**  
+**Data Scientist · Applied AI Engineer**  
 LINO Consulting and Research · Munich · Nov 2025 – Present
 
 **Data Analytics and Reporting · Werkstudent**  
 Loyalty Partner Solutions GmbH · Munich · Jul 2023 – Oct 2025
 
 **Artificial Intelligence Student Assistant**  
-Pattern Recognition Lab, FAU Erlangen-Nürnberg · Aug – Dec 2023
+Pattern Recognition Lab · FAU Erlangen-Nürnberg · Aug 2023 – Dec 2023
 
 **Senior Operations Executive**  
 Infosys Limited · Pune · Dec 2020 – Aug 2022
@@ -92,7 +92,7 @@ Infosys Limited · Pune · Dec 2020 – Aug 2022
 
 ## Education
 
-**M.Sc. Data Science** — Major: AI & Machine Learning  
+**M.Sc. Data Science** · Major: AI & Machine Learning  
 FAU Erlangen-Nürnberg · 2026
 
 **Diploma in Data Analytics and Econometrics**  
