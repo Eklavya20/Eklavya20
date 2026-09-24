@@ -1,6 +1,6 @@
 # Eklavya Jumnani
 
-Data Scientist · Applied AI Engineer · Germany  
+Former Data Scientist ·  AI Engineer · Germany  
 Production-grade AI: agentic systems, MLOps, and diagnostic tooling.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eklavya-jumnani)
