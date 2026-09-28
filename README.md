@@ -1,6 +1,6 @@
 # Eklavya Jumnani
 
-Former Data Scientist ·  AI Engineer · Germany  
+AI Engineer · Germany  
 Production-grade AI: agentic systems, MLOps, and diagnostic tooling.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eklavya-jumnani)
@@ -70,13 +70,12 @@ pip install diagnost
 **Dimensionality Reduction and Feature Extraction for High-Dimensional Datasets**  
 *FAU Erlangen-Nürnberg · 2026*
 
-*Link coming soon.*
 
 ---
 
 ## Experience
 
-**Data Scientist · Applied AI Engineer**  
+**AI Engineer**  
 LINO Consulting and Research · Munich · Nov 2025 – Present
 
 **Data Analytics and Reporting · Werkstudent**  
